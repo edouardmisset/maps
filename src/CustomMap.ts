@@ -19,7 +19,7 @@ export class CustomMap {
   private googleMap: google.maps.Map
 
   constructor(divId: string) {
-    this.googleMap = new google.maps.Map(document.querySelector(`#${divId}`), {
+    this.googleMap = new google.maps.Map(document.getElementById(divId), {
       zoom: 3,
       center: {
         lat: 0,

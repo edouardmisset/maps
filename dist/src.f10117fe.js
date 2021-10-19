@@ -136978,7 +136978,7 @@ var CustomMap = /*#__PURE__*/function () {
   function CustomMap(divId) {
     _classCallCheck(this, CustomMap);
 
-    this.googleMap = new google.maps.Map(document.querySelector("#".concat(divId)), {
+    this.googleMap = new google.maps.Map(document.getElementById(divId), {
       zoom: 3,
       center: {
         lat: 0,
@@ -137058,7 +137058,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55428" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55513" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

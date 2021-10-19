@@ -1,0 +1,33 @@
+{
+  "name": "maps",
+  "description": "Simple TypeScript app to display a user and a company on a map using google maps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edouardmisset/maps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edouardmisset/maps/issues"
+  },
+  "homepage": "https://github.com/edouardmisset/maps#readme",
+  "source": "index.html",
+  "devDependencies": {
+    "@types/faker": "^5.5.9",
+    "cssnano": "^5.0.8",
+    "postcss": "^8.2.15",
+    "typescript": "^4.4.4",
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "@types/google.maps": "^3.45.6",
+    "faker": "^5.5.3"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
